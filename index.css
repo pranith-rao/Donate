@@ -35,3 +35,21 @@ body {
 .card{
     margin-top: 55px;
 }
+
+
+@media screen and (max-width: 768px) {
+  body{
+    background-image: url("mback.jfif");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .text{
+    color: black;
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+  }
+}
+ 
